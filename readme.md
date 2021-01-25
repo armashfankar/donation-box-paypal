@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 Here's a basic setup:
 
 * Apache2
-* PHP 7 - All the code has been tested against PHP 7.4.3
+* PHP 7 - All the code has been tested against PHP 7.2
 * Mysql (5.x), running locally
 * Composer 2.0.8
 
