@@ -181,7 +181,7 @@ class DonationController extends Controller
                 //update merchant fee records
                 $this->merchantFee($donation->merchant_fees);
 
-                return redirect(route("thankyou", $donation->id))->with("success", "Thank you for donating Rs. " . $donation->total);
+                return redirect(route("thankyou", $donation->id))->with("success", "Thank you for donating USD " . $donation->total);
             }else{
                 //failed
                 return redirect(route("home"))->with("error", 'Transaction failed. Payment ID: '.$payment_id);

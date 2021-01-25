@@ -7,8 +7,9 @@ Transaction: User will enter the amount say 100 & the transaction will deduct 3%
 
 This is the codebase for the module, which has one interface:
 
-### Live Demo (Hosted on Heroku)
-Link: 
+### Demo Video
+Link: https://www.awesomescreenshot.com/video/2509328?key=350fb23c39427694adc80752a1b05413
+
 
 ## Getting started
 

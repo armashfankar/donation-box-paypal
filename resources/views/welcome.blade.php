@@ -38,11 +38,11 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label for="amount">Merchant Fee Received (3% of each transaction)</label>
-                            <input type="text" name="amount" value="USD {{$merchant_account->total_fee}}" readonly disabled class="form-control" />
+                            <input type="text" name="amount" value="USD {{($merchant_account ? $merchant_account->total_fee : 0)}}" readonly disabled class="form-control" />
                         </div>
                         <div class="form-group">
                             <label for="amount">Total Donations</label>
-                            <input type="text" name="amount" value="{{$merchant_account->transaction_counts}}" readonly disabled class="form-control" />
+                            <input type="text" name="amount" value="{{($merchant_account ? $merchant_account->transaction_counts : 0)}}" readonly disabled class="form-control" />
                         </div>
                     </div>
                 </div>
